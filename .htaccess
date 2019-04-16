@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^fatmaardabicaz\.av\.tr$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.fatmaardabicaz\.av\.tr$
+RewriteRule ^/?$ "https\:\/\/www\.fatmaardabicaz\.av\.tr\/" [R=301,L]
+
+AddHandler application/x-httpd-php .html
