@@ -10,9 +10,11 @@
 <input type='text' name='email'  /> <br>
 <label for='phone' >Telefon</label><br/>
 <input type='text' name='phone'  /> <br>
+<label for='subject' > Konu*</label><br>
+<input type='text' name='subject'  /> <br>
 <label for='message' >Mesajiniz*</label> <br/>
-<textarea  name='message'> </textarea>
-<input type='submit' name='Submit' value='Gonder' />
+<textarea  name='message' rows="15" cols="40"> </textarea>
+<input type='submit' name='submit' value='Gonder' />
 </fieldset>
 </form>";
 ?>
